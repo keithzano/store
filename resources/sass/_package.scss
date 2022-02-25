@@ -1,0 +1,53 @@
+.package-plan-box {
+  margin-bottom: 25px;
+  box-shadow: 0 15px 70px 0 rgba(70, 86, 128, .02);
+  border: 1px solid #cfdaf7
+}
+
+.package-plan-box-mid {
+  background: #f4f9fc;
+  border-top: 1px solid #e7e7f7;
+  border-bottom: 1px solid #e7e7f7;
+}
+
+.package-plan-box-bottom {
+  padding: 10px 15px 45px 15px;
+  position: relative
+}
+
+.package-plan-box-bottom ul {
+  padding-left: 20px
+}
+
+.package-plan-box-bottom ul li {
+  position: relative;
+  border-top: 1px dashed #dfe6fa;
+  padding: 8px 0;
+  font-size: 17px;
+  color: #000
+}
+
+.package-plan-box-bottom ul li:before {
+  content: "\e905";
+  font-family: 'icomoon' !important;
+  color: #c8d6fd;
+  position: absolute;
+  left: -27px;
+  top: 8px;
+  font-size: 14px
+}
+
+.package-plan-box-bottom ul li:first-child {
+  border-top: none
+}
+
+
+.package-plan-box-bottom ul li span {
+  font-size: 14px;
+  color: #6f89ac
+}
+
+.package-plan-box-bottom ul li span i.fa-check-circle {
+  color: #0ae45a;
+  font-size: 17px
+}

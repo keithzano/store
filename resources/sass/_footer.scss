@@ -1,0 +1,26 @@
+footer{
+	background-color: #04162B;
+	color: #C9CED6;
+	.bb{
+		border-bottom: 1px dotted #C9CED6;
+	}
+	.footer-menu{
+		font-size: 1.2rem !important;
+		font-style: bold !important;
+	}
+
+	ul{
+		list-style: none;
+		padding-left: 0;
+	}
+	a{
+		color: #C9CED6;
+		font-size: .8rem;
+	}
+	.copy{
+		font-size: 0.8rem !important;
+	}
+	.socials{
+		width: 20px;
+	}
+}

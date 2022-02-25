@@ -1,0 +1,21 @@
+body{
+	.image{
+		width: 100%;
+	}
+}
+
+.invert {
+    flex-direction: row-reverse;
+}
+
+.bg-one {
+    background-color: #f0f7f7;
+}
+
+.bg-two {
+    background-color: #d8efef;
+}
+
+div.box :hover{
+	border: 1px solid #cfdaf7
+}
